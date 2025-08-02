@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Pilot</title>
+    <script defer src="./header&footer.js"></script>
+    <script defer src="./js/action.js"></script>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./root.css">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <main>
+        <!--- nav bar section from js-->
+        <header class="nav">
+
+        </header>
+
+        <!--- section for landing and front-layout --->
+        <section class="section1">
+
+            <aside class="aside1">
+                <h1>Empower Your Future in Tech with Code Pilot</h1>
+                <p>Learn cutting-edge technologies, work on real-world projects, and get placed with top tech companies.
+                    Join a hive of learners buzzing with innovation and success!</p>
+
+                <div class=" btn-group">
+                    <div class="search-group">
+                        <label>What do you want to learn?</label>
+                        <div>
+                            <input id="searchInput" type="search" placeholder="Search courses..." />
+                            <i onclick="search()" class="icon icon-search"></i>
+                        </div>
+                    </div>
+                    <a href="/pages/contact/contact.html">
+                        <botton class="btn  bg-prime-b">
+                            Enroll Now
+                        </botton>
+                    </a>
+                </div>
+            </aside>
+
+            <aside class="aside2">
+
+                <div class="grid-layout img-section">
+
+                    <div>
+                        <img src="./imageAndSvg/section1img/a039a03a0549547a24d53ab46a25cac2.png" alt="">
+                        <span class="sideinfo">
+                            <p>1K+</p> <span>Satisfied Learners</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section1img/img2.png" alt="">
+                        <span class="sideinfo">
+                            <p>100+</p> <span>Realtime Projects</span>
+                        </span>
+                        <i class="icon icon-round1 round"> <i class="icon icon-round2 round"></i></i>
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section1img/img3.png" alt="">
+                        <span class="sideinfo">
+                            <p>4+</p> <span>Courses</span>
+                        </span>
+                        <i class="icon icon-round4 round"> <i class="icon icon-round5 round"></i></i>
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section1img/img4.png" alt="">
+                        <span class="sideinfo">
+                            <p>10+</p> <span>Certified Trainers</span>
+                        </span>
+                        <i class="icon icon-round3 round"></i>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="section2">
+            <i class="icon round icon-s2-group1"></i>
+            <div class="s2-layout">
+                <p>Our strengths <i class="icon round icon-hex1"> <i class="icon round icon-hex2"> </i></i></p>
+                <h1>Why Code Pilot?</h1>
+                <p>At Code Pilot, we believe in transforming potential into achievement. With expert trainers, hands-on
+                    learning, and a proven placement record, we have been the launchpad for hundreds of successful tech
+                    careers.</p>
+                <aside class="s2-aside">
+
+                    <div>
+                        <div>
+                            <img src="./imageAndSvg/s2-imgs/s2-img1.png" alt="">
+                        </div>
+                        <p>
+                            5+ years of expertise in tech training.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./imageAndSvg/s2-imgs/s2-img2.png" alt="">
+                        </div>
+                        <p>Certified trainers with real-world experience.</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./imageAndSvg/s2-imgs/s2-img3.png" alt="">
+                        </div>
+                        <p>Partnerships with leading tech firms.</p>
+                    </div>
+                    <div class="s2-box4">
+
+                        <div>
+                            <img src="./imageAndSvg/s2-imgs/s2-img4.png" alt="">
+                        </div>
+                        <p>Personalized mentorship for every learner.</p>
+                        <i class="icon round icon-s2-ellips1"></i>
+                    </div>
+                </aside>
+
+            </div>
+            <div>
+                <a href="/pages/about/about.html"> <button class="btn bg-prime-b">Learn more about us</button></a>
+            </div>
+            <i class="icon round icon-s2-ellips2"> <i class="icon round icon-s2-ellips3"></i></i>
+        </section>
+
+        <section class="section3">
+            <div class="s2-layout s3-layout">
+                <p>Courses we provide <i class="icon round icon-hex1"> <i class="icon round icon-hex2"> </i></i></p>
+                <h1>Discover Courses That Set You Apart</h1>
+                <p>Choose from industry-aligned programs designed to make you job-ready.</p>
+                <div class="s3-btn-group">
+                    <button class="btn bg-prime-transparent">Java FullStack</button>
+                    <button class="btn bg-prime-transparent">Python FullStack</button>
+                    <button class="btn bg-prime-transparent">MernStack</button>
+
+                </div>
+                <aside class="s3-aside" id="courses">
+
+                    <div>
+                        <div class="imgsup">
+                            <p><img class="monthinfo" src="./imageAndSvg/section3img/Accesstime.svg" alt=""> 3 months
+                            </p>
+                            <img class="imginfo" src="./imageAndSvg/footerimg/java.webp" alt="">
+                        </div>
+                        <div class="info-group">
+                            <dl>
+                                <dt>Java FullStack</dt>
+                                <dd>Oop System</dd>
+                                <dd>Java API</dd>
+                                <dd>Tomcat & Maven</dd>
+                            </dl>
+                            <div class="img-group" style="width: 70px; height: 70px;">
+                                <img src="/imageAndSvg/footerimg/frame-5.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-6.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-8.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-7.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                            </div>
+                            <span><a href="/pages/course/course.html">
+                                    View More </a>
+                            </span>
+                            <button class="btn bg-prime-y">₹6,999</button>
+                        </div>
+                    </div>
+                    <div class="el-p">
+                        <div class="imgsup">
+                            <p><img class="monthinfo" src="./imageAndSvg/section3img/Accesstime.svg" alt=""> 3 months
+                            </p>
+                            <img class="imginfo" src="./imageAndSvg/footerimg/python.webp" alt="">
+                        </div>
+                        <div class="info-group">
+                            <dl>
+                                <dt>Python FullStack</dt>
+                                <dd>OOPS</dd>
+                                <dd>DB Connections</dd>
+                                <dd>FAPI and Security</dd>
+                            </dl>
+                            <div class="img-group" style="width: 70px; height: 70px;">
+                                <img src="/imageAndSvg/footerimg/frame-9.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-10.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-11.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-12.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                            </div>
+                            <span>
+                                <a href="/pages/course/course.html">
+                                    View More
+                            </span></a>
+                            <button class="btn bg-prime-y">₹6,999</button>
+                            <i class="icon round icon-s2-ellips2"> <i class="icon round icon-s2-ellips3"></i></i>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="imgsup">
+                            <p><img class="monthinfo" src="./imageAndSvg/section3img/Accesstime.svg" alt=""> 3 months
+                            </p>
+                            <img class="imginfo" src="./imageAndSvg/footerimg/mern-stack.webp" alt="">
+                        </div>
+                        <div class="info-group">
+                            <dl>
+                                <dt>MernStack</dt>
+                                <dd>Fundamentals of UI</dd>
+                                <dd>Visual Design Principles</dd>
+                                <dd>Layout & Composition</dd>
+                            </dl>
+                            <div class="img-group" style="width: 70px; height: 70px;">
+                                <img src="/imageAndSvg/footerimg/frame-1.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-2.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-4.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                                <img src="/imageAndSvg/footerimg/frame-3.webp" alt=""
+                                    style="width: 30px; height: 30px;">
+                            </div>
+                            <span>
+                                <a href="/pages/course/course.html">
+                                    View More</a>
+                            </span>
+
+                            <button class="btn bg-prime-y">₹6,999</button>
+                        </div>
+                    </div>
+
+                </aside>
+                <a href="/pages/course/course.html">
+                    <button class="btn bg-prime-b">View all Courses</button></a>
+            </div>
+
+        </section>
+        <!--- 
+        <section class=" section3 section4">
+            <div class="s2-layout s3-layout s-4-layout">
+                <p>Placed Students <i class="icon round icon-hex1"> <i class="icon round icon-hex2"> </i></i></p>
+                <h1><img src="./imageAndSvg/section4img/Group.svg" alt="">Transforming Dreams Into Careers</h1>
+                <p>Code Pilot doesn't just teach skills—we build careers!</p>
+
+                <aside class="s4-aside-layout">
+
+                    <div>
+
+                        <aside class="s4-aside1">
+                            <img class="student-profile" src="./imageAndSvg/section4img/s4-img.jpeg" alt="">
+                            <h1>John Denver <br /> <span>October 2023</span></h1>
+                            <img class="linked-in-img" src="./imageAndSvg/section4img/linkedin_symbol.svg.svg" alt="">
+
+                        </aside>
+                        <aside class="s4-aside2">
+
+                            <div>
+                                <p>Pre Code Pilot</p>
+                                <img src="./imageAndSvg/section4img/image 16.png" alt="">
+                                <p>Graphic Designer</p>
+                            </div>
+                            <div>
+                                <img src="./imageAndSvg/section4img/Arrow 1 (1).svg" alt="">
+                            </div>
+                            <div>
+                                <p>Post Code Pilot</p>
+                                <img src="./imageAndSvg/section4img/phonepe_logo.svg.svg" alt="">
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </aside>
+
+
+                    </div>
+                    <div>
+                        <aside class="s4-aside1">
+                            <img class="student-profile" src="./imageAndSvg/section4img/s-4img1.png" alt="">
+                            <h1>Maria H.<br /> <span>October 2023</span></h1>
+                            <img class="linked-in-img" src="./imageAndSvg/section4img/linkedin_symbol.svg.svg" alt="">
+
+                        </aside>
+                        <aside class="s4-aside2">
+                            <div>
+                                <p>Pre Code Pilot</p>
+                                <img src="./imageAndSvg/section4img/Group (2).svg" alt="">
+                                <p>Trainee</p>
+                            </div>
+                            <div>
+                                <img src="./imageAndSvg/section4img/Arrow 1 (1).svg" alt="">
+                            </div>
+                            <div>
+                                <p>Post Code Pilot</p>
+                                <img src="./imageAndSvg/section4img/Group (3).svg" alt="">
+                                <p>Product Designer</p>
+                            </div>
+                        </aside>
+                    </div>
+                    <div>
+                        <aside class="s4-aside1">
+                            <img class="student-profile" src="./imageAndSvg/section4img/s-4img3.jpeg" alt="">
+                            <h1>Sandra P. <br /> <span>October 2023</span></h1>
+                            <img class="linked-in-img" src="./imageAndSvg/section4img/linkedin_symbol.svg.svg" alt="">
+
+                        </aside>
+                        <aside class="s4-aside2">
+                            <div>
+                                <p>Pre Code Pilot</p>
+                                <img src="./imageAndSvg/section4img/image 23.png" alt="">
+                                <p>Support Engineer</p>
+                            </div>
+                            <div>
+                                <img src="./imageAndSvg/section4img/Arrow 1 (1).svg" alt="">
+                            </div>
+                            <div>
+                                <p>Post Code Pilot</p>
+                                <img src="./imageAndSvg/section4img/Logo Alternative.svg.svg" alt="">
+                                <p>Cloud Specialist</p>
+                            </div>
+                        </aside>
+                    </div>
+
+
+                </aside>
+                <button class="btn bg-prime-b">View all courses</button>
+            </div>
+
+        </section> -->
+
+        <!-- 
+        <section class="section5">
+
+            <div class="s5-layout">
+
+                <h1>Trusted by over 10,000+ students and the best in the industry</h1>
+                <aside>
+                    <img src="./imageAndSvg/section5img/Logo.png" alt="">
+                    <img src="./imageAndSvg/section5img/tata_consultancy_services_logo.png" alt="">
+                    <img src="./imageAndSvg/section5img/Logo1.png" alt="">
+                    <img src="./imageAndSvg/section5img/phonepe_logo.png" alt="">
+                    <img src="./imageAndSvg/section5img/zoho_logo.png" alt="">
+                    <img src="./imageAndSvg/section5img/infosys_logo.png" alt="">
+                </aside>
+            </div>
+        </section>
+
+        <section class="section3 section6">
+            <i class="icon round icon-wave"></i>
+            <i class="icon round icon-wave1"></i>
+            <i class="icon round icon-s2-ellips2"> <i class="icon round icon-s2-ellips3"></i></i>
+            <div class="s2-layout s3-layout s6-layout">
+                <p>Students love us! <i class="icon round icon-hex1"> <i class="icon round icon-hex2"> </i></i></p>
+                <h1>Hear from our Hive members</h1>
+
+                <aside class="s6-aside-layout">
+
+                    <div class="s6-aside s6-aside1">
+
+                        <div>
+                            <div class="profile-review">
+                                <i class="star-icon icon"> <i class="qoute-icon icon"></i></i>
+                                <img class="star-icon profile-img" src="./imageAndSvg/section6img/img-s6.jpeg" alt="">
+                            </div>
+                            <img src="./imageAndSvg/section6img/Group1000001811.svg" alt="">
+                            <p>The experience at Code Pilot was transformational. The mentorship and real-world projects
+                                prepared me.</p>
+                            <p>-Sanjana J.</p>
+                        </div>
+                        <div class="with-out-profile">
+                            <div>
+                                <img src="./imageAndSvg/section6img/Group1000001812.svg" alt="">
+                                <p>The experience at Code Pilot was transformational. The mentorship and real-world
+                                    projects prepared me.</p>
+                                <p>-Sanjana J.</p>
+                            </div>
+                            <div>
+                                <i class="star-icon icon"> <i class="qoute-icon icon"></i></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="s6-aside s6-aside2">
+                        <div class="with-out-profile">
+                            <div>
+                                <img src="./imageAndSvg/section6img/Group1000001812.svg" alt="">
+                                <p>The experience at Code Pilot was transformational. The mentorship and real-world
+                                    projects prepared me.</p>
+                                <p>-Sanjana J.</p>
+                            </div>
+                            <div>
+                                <i class="star-icon icon"> <i class="qoute-icon icon"></i></i>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-review">
+                                <i class="star-icon icon"> <i class="qoute-icon icon"></i></i>
+
+                            </div>
+                            <img src="./imageAndSvg/section6img/Group1000001811.svg" alt="">
+                            <p>The experience at Code Pilot was transformational. The mentorship and real-world projects
+                                prepared me for the tech industry.</p>
+                            <p>-Anjali S.</p>
+                        </div>
+                    </div>
+            </div>
+
+            </aside>
+            <button class="btn bg-prime-b">View all Testimonials</button>
+            </div>
+        </section> -->
+
+        <section class="section7">
+
+            <aside class="s7-aside1">
+                <h1>Talk to our Advisor</h1>
+                <p>Unlock your potential with personalized guidance tailored to your career goals!</p>
+
+                <h2>
+                    What you will get:
+                </h2>
+                <ul>
+                    <li>Personalized Career Roadmap</li>
+                    <li>Free Career Counselling</li>
+                    <li>
+                        Exclusive Access to Code Pilot Events
+                    </li>
+                </ul>
+                <p>Fill out the form, and our advisor will get back to you within 24 hours.</p>
+
+
+            </aside>
+            <aside class="s7-aside2">
+                <h1>Quick Enquiry</h1>
+                <form class="generalform" id="reserveForm">
+                    <div>
+                        <label>Name*</label><br />
+                        <input placeholder="Enter your name" name="name" />
+                    </div>
+                    <div>
+                        <label>Email*</label><br />
+                        <input placeholder="Enter your Email ID" name="email" />
+                    </div>
+                    <div>
+                        <label>Phone Number*</label><br />
+                        <input placeholder="Enter your Phone Number" name="phone" />
+                    </div>
+                    <div>
+                        <label>Education Level*</label><br />
+                        <select class="select_category" name="education">
+                            <option value disabled selected>Select your option</option>
+                            <option value="Diplamo">Diploma</option>
+                            <option value="UG">UG</option>
+                            <option value="PG">PG</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Career Status*</label><br />
+                        <select name="career">
+                            <option disabled selected value>Select your option</option>
+                            <option value="Fresher">Fresher</option>
+                            <option value="Carrer Gap">Carrer Gap</option>
+                            <option value="Working Professional">Working Professional</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Courses*</label><br />
+                        <select name="course">
+                            <option disabled selected value>Select Courses</option>
+                            <option value="Java Full stack">Java Full Stack</option>
+                            <option value="Python Full Stack">Python Full Stack</option>
+                            <option value="Mern Stack">Mern Stack</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                        </select>
+                    </div>
+                    
+                    <button class="btn bg-prime-y" type="submit">Submit</button>
+                </form>
+            </aside>
+        </section>
+
+        <section class="section3 section8">
+
+            <i class="icon round s8-elp1"><i class="icon round s8-elp2"></i> <i class="icon round s8-elp3"></i></i>
+
+            <div class="s2-layout s3-layout s8-layout">
+                <p>Get to know us <i class="icon round icon-hex1"> <i class="icon round icon-hex2"> </i></i></p>
+                <h1>Insights from the Tech World</h1>
+                <p>Stay updated with expert articles, tips, and trends to stay ahead in the tech game.</p>
+
+                <aside class="s8-aside">
+                    <div>
+                        <img src="./imageAndSvg/section8img/s8-img1.jpeg" alt="">
+                        <div class="s8-bottom-grid-layout">
+                            <span>Tech</span>
+                            <span>Oct 2024</span>
+                            <h1>Java Full Stack Development: A Complete Guide</h1>
+                            <p>Explore the Java Full Stack roadmap, from front-end to back-end, and learn how to build
+                                scalable web applications efficiently.</p>
+                        </div>
+                        <img class="hover-arrow" src="./imageAndSvg/section8img/Arrowforword.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section8img/s8-img2.jpeg" alt="">
+                        <div class="s8-bottom-grid-layout">
+                            <span>Tech</span>
+                            <span>Oct 2025</span>
+                            <h1>Why Java Full Stack Development is in High Demand?</h1>
+                            <p>Discover the growing demand for Java Full Stack developers, their job roles, salary
+                                trends, and future career opportunities..</p>
+                        </div>
+                        <img class="hover-arrow" src="./imageAndSvg/section8img/Arrowforword.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section8img/s8-img3.jpeg" alt="">
+                        <div class="s8-bottom-grid-layout">
+                            <span>Tech</span>
+                            <span>Jan 2025</span>
+                            <h1>Python Full Stack vs Java Full Stack: Which is Better?</h1>
+                            <p>Compare Python Full Stack and Java Full Stack development in terms of performance,
+                                scalability, and job market trends..</p>
+                        </div>
+                        <img class="hover-arrow" src="./imageAndSvg/section8img/Arrowforword.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section8img/s8-img4.jpeg" alt="">
+                        <div class="s8-bottom-grid-layout">
+                            <span>Tech</span>
+                            <span>Feb 2025</span>
+                            <h1>Python Full Stack Development: Skills & Career Scope</h1>
+                            <p>Master the essential skills required for Python Full Stack development and explore its
+                                career prospects in 2025..</p>
+                        </div>
+                        <img class="hover-arrow" src="./imageAndSvg/section8img/Arrowforword.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section8img/s8-img5.jpg" alt="">
+                        <div class="s8-bottom-grid-layout">
+                            <span>Tech</span>
+                            <span>Feb 2025</span>
+                            <h1>MERN Stack Development: A Beginner’s Guide</h1>
+                            <p>Learn the fundamentals of MERN Stack (MongoDB, Express.js, React.js, Node.js) and how it
+                                powers modern web applications..</p>
+                        </div>
+                        <img class="hover-arrow" src="./imageAndSvg/section8img/Arrowforword.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imageAndSvg/section8img/s8-img6.jpeg" alt="">
+                        <div class="s8-bottom-grid-layout">
+                            <span>Tech</span>
+                            <span>Feb 2025</span>
+                            <h1>Why MERN Stack is the Best Choice for Web Development?</h1>
+                            <p>Understand the advantages of MERN Stack, its flexibility, scalability, and why startups
+                                and enterprises prefer it..</p>
+                        </div>
+                        <img class="hover-arrow" src="./imageAndSvg/section8img/Arrowforword.svg" alt="">
+                    </div>
+
+
+
+                </aside>
+                <button class="btn bg-prime-b">Visit our blog</button>
+            </div>
+        </section>
+
+        <footer class="footer"></footer>
+
+    </main>
+
+    <script src="/formSubmit.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
